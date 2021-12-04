@@ -14,11 +14,15 @@ print("The program is starting!")
 
 while True:      
     pyautogui.typewrite(msg) 
-    sleep(.600)                        
+    sleep(.250)                        
     pyautogui.typewrite("\n")                                    
 
     n = n - 1        
-    if n == 0:       
-        break 
+
+    print("{} messages left.".format(n))
+
+    if n == 0:
+        break
+
 
 print("All the messages was sent!")       
