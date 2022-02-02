@@ -8,7 +8,7 @@ n = int(n)
 
 print("Please select the message fild and wait...")
 
-sleep(6)
+sleep(10)
 
 print("The program is starting!")
 
